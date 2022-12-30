@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	background-image : url("https://youthincmag.com/wp-content/uploads/2017/08/indian-flag-photos-hd-wallpapers-download-free.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+nav{
+	background-color:orange;
+	font-size:30px;
+	color:white;
+	display:flex;
+	justify-content:right;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+
+nav a{
+	color:white;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+nav a:hover{
+	color:black;
+}
+
+.form-container{
+	background-color:#FFFBC1;
+	font-size:30px;
+	width:40%;
+	display:flex;
+	justify-content:center;
+	margin-left :60%;
+	margin-top: 6%;
+	margin-right: 2%;
+	border-radius:15px;
+	padding-bottom:20px;
+	text-align:center;
+	
+}
+.form-container  button, input, textarea , select{
+	width:70%;
+	height:40px;
+	margin-top:20px;
+	margin-bottom:15px;
+	font-size:20px;
+	background-color:#009EFF;
+	border-radius:20px;
+	text-align:center;
+	margin-left:10px;	
+}
+
+.form-container label {
+	margin-left:10%;	
+}
+.form-container button{
+	cursor:pointer;	
+	height:50px;
+}
+
+.form-container a {
+	margin-left:5%;
+	margin-top:20px;
+	margin-right:20px;
+	font-size:25px;
+	color:black;
+}
+
+.form-container a:hover{
+	color:#009EFF;
+}
+
+.about  { 
+	font-family: Helvetica;
+    font-size: 35px;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 20px;
+    opacity: 0.8;
+    background-color: #FFFBC1;
+
+}
+
+.about p{
+	padding-top: 40px;
+	font-weight: bold;
+}
+.about img{
+	    width: 40%;
+    height: 40%;
+    position: relative;
+    object-fit: scale-down;
+    margin-right: 10px;
+    bottom: 120px;
+}
+.welcome-form{
+	padding-top:20px;
+	padding-bottom:20px;
+	font-weight:bold;
+	font-size:30px;
+}
+
+.check-Table{
+	background-color: #FFF7E9;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:30px;
+	opacity: 0.9;
+}
+.check-Table img{
+	height:100px;
+	width:100px;
+}
+.check-Table td, th{
+	padding:10px 60px;
+}
